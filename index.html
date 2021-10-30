@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="api to get inner width of mobile devices, simple dev tools for mobile devices, free api to get inner width of devices using without dev tools, Mobile inner width finder free"/>
+    <title>Mobile inner width finder</title>
+    <script>
+        var getWidth = ()=>{   
+            document.getElementById("innerWidth").innerHTML = window.innerWidth + 'px';
+        }
+    </script>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inner width of your screen is <span id="innerWidth"></span></h1>
+    <button type="button" onClick="getWidth()">Get width</button>
+</body>
+</html>
